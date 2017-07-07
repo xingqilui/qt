@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="new">image/Document.png</file>
+        <file alias="add">image/Add.png</file>
+        <file alias="love">image/Favorite.png</file>
+    </qresource>
+</RCC>
