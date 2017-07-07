@@ -31,10 +31,6 @@ MainWindow::MainWindow(QWidget *parent) :
     m_pToolBarFile->addAction(m_pActionOpen);
     m_pToolBarFile->addAction(m_pActionSave);
 
-    connect(pasteAct, SIGNAL(triggered()), textEdit, SLOT(paste()));
-    connect(pasteAct, SIGNAL(triggered()), textEdit, SLOT(paste()));
-    connect(pasteAct, SIGNAL(triggered()), textEdit, SLOT(paste()));
-
 
 }
 
@@ -45,5 +41,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    qDebug() << "Click!";
+    sparse *pSparse = new sparse();
+    pSparse->show();
+
 }
