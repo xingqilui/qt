@@ -48,7 +48,7 @@
        <item>
         <widget class="QLineEdit" name="lineEdit">
          <property name="placeholderText">
-          <string>Input cmdName</string>
+          <string>Input cmdCode Enter...</string>
          </property>
         </widget>
        </item>
