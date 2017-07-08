@@ -1,0 +1,373 @@
+[CMDCODE]
+    <CreateAclRule:1E19>    
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>    
+[INNERHEAD]
+    <AclID:2>
+    <RuleID:2>
+    <INNERDIMNUM:2>
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>
+    
+[CMDCODE]
+    <AclBindPort:1E1D>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <PortID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>   
+	
+[CMDCODE]
+    <SetPHBTemplet:1E95>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <DsID:2>
+	<DsType:2>
+	<PHBDirect:2>
+	<LineNum:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>
+
+[CMDCODE]
+    <EnablePHBTempletPort:1E97>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <IdentyType:2>
+	<PortID:2>
+	<Unused:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>
+
+[CMDCODE]
+    <SetWRED:1E99>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <WredID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8> 
+
+[CMDCODE]
+    <SetQueueTemplet:1E9B>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TempletID:2>
+	<QueueID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>  
+
+[CMDCODE]
+    <SetQueueTemplet:1E9C>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TempletID:2>
+	<QueueID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>  	
+	
+[CMDCODE]
+    <SetQueueTemplet:1E9F>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TempletID:2>
+	<PortID:2>
+	<Unused:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    	
+
+[CMDCODE]
+    <SetQueueTemplet:1E79>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<PortID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>   	
+	
+[CMDCODE]
+    <PortBindPHB:1E79>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<IdentyType:2>
+	<PortID:2>
+	<Unused:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>   	
+
+[CMDCODE]
+    <PortBindPHB:1E7A>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<PortID:2>
+    <INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>
+
+[CMDCODE]
+    <PortBindPHB:1E43>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<DstPortID:2>
+    <SrcPortID:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8> 
+
+[CMDCODE]
+    <PortBindPHB:1E44>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<DstPortID:2>
+    <SrcPortID:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>
+
+[CMDCODE]
+    <PortBindPHB:1E01>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TrunkID:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>   
+
+[CMDCODE]
+    <PortBindPHB:1E02>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TrunkID:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>        	
+	
+[CMDCODE]
+    <PortBindPHB:1E91>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TrunkID:2>
+	<PortId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    	
+	
+[CMDCODE]
+    <PortBindPHB:1E92>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+    <TrunkID:2>
+	<PortId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    	
+
+[CMDCODE]
+    <PortBindPHB:1E77>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<PortId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    
+
+[CMDCODE]
+    <Flowsort:1EAB>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<LocateType:2>	
+	<SvcId:2>
+	<PortId:2>
+	<Serial:2>
+	<INNERDIMNUM:2>      
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>  
+	
+[CMDCODE]
+    <Flowport:1E5D>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<ServiceId:2>	
+	<ObjectId:2>
+	<INNERDIMNUM:2>      
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>  
+
+[CMDCODE]
+    <ServiceId:1E3D>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<ServiceId:2>	
+	<INNERDIMNUM:2>      
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>  
+
+[CMDCODE]
+    <PortBindPHB:4F0D>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<PortId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    
+	
+[CMDCODE]
+    <PortBindPHB:1E40>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<ServiceId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    
+	
+[CMDCODE]
+    <PortBindPHB:1E5E>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<ServiceId:2>
+	<ObjectId:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>    
+	
+[CMDCODE]
+    <PortBindPHB:1EAC>
+[OUTERHEAD]
+    <OpType:2>
+    <OUTERDIMNUM:2>
+[INNERHEAD]
+	<LocalType:2>
+	<ServiceId:2>
+	<PortId:2>
+	<Serial:2>
+	<INNERDIMNUM:2>        
+[INNERBODY]
+    <ProID:2>
+    <AssembleFlag:1>
+    <ValueType:1>
+    <ProValue:8>   	
