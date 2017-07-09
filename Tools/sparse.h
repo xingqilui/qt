@@ -34,6 +34,17 @@ private:
     QSqlDatabase m_DB;
     QSqlTableModel *m_pTableModel;
 
+    int m_dstAddr = 4;
+    int m_srcAddr = 4;
+    int m_callId = 4;
+    int m_cmdCode = 2;
+    int m_reply = 1;
+    int m_ExResult = 2;
+    int m_reserved1 = 1;
+    int m_msgLength = 4;
+    int m_reserved2 = 2;
+
+    void printLine(QString &dstStr, QString &srcStr, QString name, int &index, int length, QString &value);
     void scmdParse(QString &scmd, QString &result);
 
 };
