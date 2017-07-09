@@ -136,5 +136,8 @@ void sparse::on_pushButtonFind_clicked()
     qDebug() << innerHeadList;
     qDebug() << innerBodyList;
 
+    //将命令格式化
+
+
 
 }
